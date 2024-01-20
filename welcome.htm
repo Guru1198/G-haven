@@ -1,0 +1,161 @@
+<!Doctype html>
+<html>
+<head>
+<title>Gamer Haven</title>
+<Header class="header-section">
+<div id="menu">
+<Header class="header-section">
+<div id="logo">
+<img src="img/logoo.png"/>
+</div>
+<div class="header-warp">
+<div class="header-social d-flex justify-content-end">
+<nav class="main-menu">
+<ul>
+<li><a href="Login.htm">Home</a></li>
+<li><a href="welcome.htm">welcome</a></li>
+<li><a href="Gallery.htm">Gallery</a></li>
+<li><a href="Sign up.htm">sign up</a></li>
+<li><a href="contact.htm">Contact</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+</div>
+<div class="header-bar-warp d-flex">
+<!-- logo -->
+<nav class="top-left-nav-area w-0">
+<!-- responsive -->
+<div class="nav-switch">
+<i class="fa fa-bars"></i>
+</div>
+<style>
+body{
+margin:0px;
+Background:#1E242A;
+}
+#main{
+width:100%;
+height:100%
+position:absolute;
+overflow:hidden;
+}
+#box1{
+width:530px;
+height:625px;
+background-image:url('img/30.jpg');
+position:absolute;
+bottom:-100%;
+left:30%;
+animation:anim 2s forwards, anim2 3s forwards 3s;
+}
+#box1:after{
+content:'';
+position:absolute;
+width:530px;
+height:625px;
+background-image:url('img/25.jpg');
+left:0px;
+z-index: -1;
+}
+@keyframes anim{
+from{
+ bottom:-100%;
+}
+to{
+bottom:0%;
+}
+}
+@keyframes anim2{
+from{
+left:30%;
+width:530px;
+}
+to{
+width:0px;
+left:50%;
+}
+}
+#box2{
+width:auto;
+height:auto;
+fontfamily: 'Bahnschrift condensed';
+color:white;
+font-size:10em;
+font-weight: 500;
+line-height:130px;
+position:absolute;
+top:250px;
+left:100px;
+overflow:hidden;
+}
+#text{
+position: relative;
+left:100%;
+animation: anim3 2s forwards 3s;
+}
+@keyframes anim3{
+from{
+left:-100%;
+}
+to{
+left:0%;
+}
+}
+#box3[
+overflow: hidden;
+}
+#container{
+width:100%;
+position:absolute;
+top:-100%;
+animation:anim4 2s forwards 2.5s;
+}
+#logo{
+float:left;
+margin-left:100px;
+margin-top:20px;
+}
+#logo img{
+width:50px;
+}
+#menu{
+font-family:'Behnschrift condensed';
+font-size:14px;
+color:white;
+letter-spacing:2px;
+margin-right:150px;
+margin-top:20px;
+float:right;
+}
+#menu ul{
+list-style:none;
+}
+#menu ul li{
+display:inline-block;
+margin-left:100px;
+}
+@keyframes anim4{
+from{
+top:-100%;
+}
+to{
+top:0%;
+}
+</style>
+</head>
+<body>
+<div id="main">
+<div id="box1"></div>
+<div id="box2">
+<div id="text">
+Gamer<br>Haven
+</div>
+</div>
+<div id="box3">
+<div id="container">
+</div>
+</div>
+</body>
+</html>
